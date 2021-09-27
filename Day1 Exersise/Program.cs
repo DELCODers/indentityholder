@@ -17,8 +17,11 @@ namespace Day1_Exersise
             Console.WriteLine("What is your name of your hometown");
             string homeTown = Console.ReadLine();
 
-            //Console.WriteLine("Your name is"")
-            Console.WriteLine($"Your name is {name}. Your age is {age} Your hometown is {homeTown}");
+            Console.WriteLine("can you give me the name of your favorite food");
+                string favoritefood = Console.ReadLine();
+
+            
+            Console.WriteLine($"Your name is {name}. Your age is {age}. Your hometown is {homeTown}. your favorite food is {favoritefood}");
         }
     }
 }
